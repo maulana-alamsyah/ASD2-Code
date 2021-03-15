@@ -1,13 +1,12 @@
 package Nested_Looping; //deklarasi package
 public class no2 { //bagian class
     public static void main(String[] args){ //method main
-        int x,y;
-        
-        for(x=0; x<=4;x++){
-            for(y=0;y<x;y++){
-                System.out.print(y);
+        int x, y;
+        for (x = 0; x <=4 ; x++){
+            for (y=0; y<x; y++){
+                System.out.print(x);
             }
-            System.out.println();
+            System.out.println ( );
         }
     }
 }

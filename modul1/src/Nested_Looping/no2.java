@@ -6,7 +6,7 @@ public class no2 { //bagian class
             for (y=0; y<x; y++){
                 System.out.print(x);
             }
-            System.out.println ( );
+            System.out.println();
         }
     }
 }
